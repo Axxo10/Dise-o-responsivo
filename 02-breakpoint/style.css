@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+background: #020024;
+background: linear-gradient(90deg, rgb(251, 251, 255) 0%, rgb(205, 205, 255) 35%, rgb(199, 169, 255) 100%);
+color: aliceblue;
+font-family: monospace;
+text-decoration: underline;
+}
+
+@media screen and (min-width: 480px){
+    body {
+     background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    }
+}
+
+@media screen and (min-width: 720px){
+    body {
+           background: #020024;
+background: linear-gradient(90deg, rgb(36, 0, 0) 0%, rgb(121, 9, 9) 35%, rgb(255, 0, 0) 100%);
+    }
+}
+
+
+@media screen and (min-width: 1080px){
+    body {
+           background: #020024;
+background: linear-gradient(90deg, rgb(1, 36, 0) 0%, rgb(9, 121, 43) 35%, rgb(0, 255, 89) 100%);
+    }
+}
+h1 {
+    font-size: 5rem;
+    color: aliceblue
+}
+@media screen and (max-width: 1280px) {
+    h1{
+        font-size: 2rem;
+        color: rgb(255, 123, 171);
+    }
+}
+@media screen and (max-width: 1023px){
+    h1 {
+        font-size: 8rem;
+        color: lightcyan;
+    }
+}
+@media screen and (max-width: 767px){
+    h1 {
+        font-size: 1rem;
+        color: rgb(94, 89, 56);
+    }
+}
